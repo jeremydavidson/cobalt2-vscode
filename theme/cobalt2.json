@@ -304,7 +304,10 @@
   "tokenColors": [
     {
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#0088ff"
@@ -347,28 +350,38 @@
     },
     {
       "name": "Markup Inserted",
-      "scope": ["markup.inserted", "meta.diff.header.to-file"],
+      "scope": [
+        "markup.inserted",
+        "meta.diff.header.to-file"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "Markup Inserted Punctuation",
-      "scope": ["punctuation.definition.inserted"],
+      "scope": [
+        "punctuation.definition.inserted"
+      ],
       "settings": {
         "foreground": "#a5ff90cc"
       }
     },
     {
       "name": "Markup Deleted",
-      "scope": ["markup.deleted", "meta.diff.header.from-file"],
+      "scope": [
+        "markup.deleted",
+        "meta.diff.header.from-file"
+      ],
       "settings": {
         "foreground": "#ff628c"
       }
     },
     {
       "name": "Markup Deleted Punctuation",
-      "scope": ["punctuation.definition.deleted"],
+      "scope": [
+        "punctuation.definition.deleted"
+      ],
       "settings": {
         "foreground": "#ff628ccc"
       }
@@ -395,14 +408,14 @@
       "name": "Meta Brace",
       "scope": "meta.brace",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
       "name": "Punctuation",
       "scope": "punctuation",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
@@ -435,14 +448,20 @@
     },
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string"],
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
     },
     {
       "name": "String Template",
-      "scope": ["string.template", "punctuation.definition.string.template"],
+      "scope": [
+        "string.template",
+        "punctuation.definition.string.template"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -465,19 +484,22 @@
       "name": "Support Variable Property DOM",
       "scope": "support.variable.property.dom",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
       "name": "[CSS] - Entity",
-      "scope": ["source.css entity", "source.stylus entity"],
+      "scope": [
+        "source.css entity",
+        "source.stylus entity"
+      ],
       "settings": {
         "foreground": "#3ad900"
       }
@@ -498,7 +520,10 @@
     },
     {
       "name": "[CSS] - Support",
-      "scope": ["source.css support", "source.stylus support"],
+      "scope": [
+        "source.css support",
+        "source.stylus support"
+      ],
       "settings": {
         "foreground": "#a5ff90"
       }
@@ -529,7 +554,10 @@
     },
     {
       "name": "[CSS] - Variable",
-      "scope": ["source.css variable", "source.stylus variable"],
+      "scope": [
+        "source.css variable",
+        "source.stylus variable"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -574,7 +602,7 @@
       "name": "[INI] - Entity",
       "scope": "source.ini entity",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
@@ -621,14 +649,19 @@
     },
     {
       "name": "[PYTHON] - Self Argument",
-      "scope": ["variable.parameter.function.language.special.self.python","meta.function-call.generic.python"],
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[PYTHON] - Function Call Argument",
-      "scope": ["meta.function-call.arguments.python"],
+      "scope": [
+        "meta.function-call.arguments.python"
+      ],
       "settings": {
         "foreground": "#fb94ff"
       }
@@ -647,14 +680,14 @@
         "source.json punctuation.definition.string"
       ],
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
       "name": "[MARKDOWN] - Heading Punctuation",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
@@ -673,7 +706,7 @@
       "name": "[MARKDOWN] - Paragraph",
       "scope": "meta.paragraph.markdown",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
@@ -751,14 +784,20 @@
     },
     {
       "name": "[MARKDOWN] - Inline Code",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
     },
     {
       "name": "[MARKDOWN] - Code Block",
-      "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
+      "scope": [
+        "fenced_code.block.language",
+        "markup.inline.raw.markdown"
+      ],
       "settings": {
         "foreground": "#9effff"
       }
@@ -802,7 +841,7 @@
       "name": "[TYPESCRIPT] - Punctuation Parameters",
       "scope": "source.ts punctuation.definition.parameters",
       "settings": {
-        "foreground": "#e1efff"
+        "foreground": "#d1deee"
       }
     },
     {
@@ -869,7 +908,9 @@
     },
     {
       "name": "Export Default",
-      "scope": ["keyword.control.export"],
+      "scope": [
+        "keyword.control.export"
+      ],
       "settings": {
         "foreground": "#ff9d00",
         "fontStyle": "italic"
@@ -877,7 +918,9 @@
     },
     {
       "name": "[TYPESCRIPT] Returned Type",
-      "scope": ["meta.return.type.ts"],
+      "scope": [
+        "meta.return.type.ts"
+      ],
       "settings": {
         "foreground": "#ff0088",
         "fontStyle": "italic"
